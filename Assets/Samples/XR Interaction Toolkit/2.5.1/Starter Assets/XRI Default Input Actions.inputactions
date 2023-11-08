@@ -2600,6 +2600,54 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "Example",
+            "id": "a06e215c-f2b9-4f7f-ad00-706767f52c55",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "45e6068d-f555-4506-8faa-984f42e28b38",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Toggle",
+                    "type": "Button",
+                    "id": "8ac8cfca-aab5-480c-8572-8091f54a89b8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "a4a1bd95-da5b-4867-a4b1-95d5eb8b0b58",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fa35d40e-f57d-4200-8fdd-7081b062e23d",
+                    "path": "<XRController>{LeftHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Toggle",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": [
