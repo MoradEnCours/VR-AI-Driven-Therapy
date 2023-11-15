@@ -68,15 +68,14 @@
       "hash": "278bb70fa36b291d18e68ee35efdbc59d0081774"
     },
     "com.rest.elevenlabs": {
-      "version": "2.0.8",
+      "version": "https://github.com/RageAgainstThePixel/com.rest.elevenlabs.git#upm",
       "depth": 0,
-      "source": "registry",
+      "source": "git",
       "dependencies": {
-        "com.unity.sharp-zip-lib": "1.3.4-preview",
-        "com.utilities.rest": "2.1.7",
-        "com.utilities.audio": "1.0.6"
+        "com.utilities.rest": "2.2.5",
+        "com.utilities.encoder.ogg": "3.0.12"
       },
-      "url": "https://package.openupm.com"
+      "hash": "85f3ac9ea0bf3149cda24e7e697f883a0e5fa599"
     },
     "com.unity.burst": {
       "version": "1.8.8",
@@ -133,7 +132,7 @@
     },
     "com.unity.ide.rider": {
       "version": "3.0.24",
-      "depth": 1,
+      "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.ext.nunit": "1.0.6"
@@ -151,7 +150,7 @@
     },
     "com.unity.ide.vscode": {
       "version": "1.2.5",
-      "depth": 1,
+      "depth": 0,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
@@ -193,6 +192,24 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+    "com.unity.postprocessing": {
+      "version": "3.2.2",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.physics": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.progrids": {
+      "version": "3.0.3-preview.6",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.settings-manager": "1.0.2"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.render-pipelines.core": {
       "version": "14.0.8",
       "depth": 1,
@@ -224,7 +241,7 @@
     },
     "com.unity.settings-manager": {
       "version": "2.0.1",
-      "depth": 2,
+      "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
@@ -237,13 +254,6 @@
         "com.unity.render-pipelines.core": "14.0.8",
         "com.unity.searcher": "4.9.2"
       }
-    },
-    "com.unity.sharp-zip-lib": {
-      "version": "1.3.4-preview",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {},
-      "url": "https://packages.unity.com"
     },
     "com.unity.test-framework": {
       "version": "1.3.5",
